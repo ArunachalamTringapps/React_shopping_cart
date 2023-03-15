@@ -37,6 +37,5 @@ a{
 .homeword{
     font-size: x-large;
     display: flex;
-    font-size: large;
     column-gap: 2em;
 }
