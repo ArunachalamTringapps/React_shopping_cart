@@ -1,0 +1,20 @@
+
+footer{
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+}
+footer h1{
+    text-align: center;
+    color: #7b7b7b;
+    font-size: 2rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.587);
+    
+}
+footer h1 span{
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    color:  rgb(255, 153, 0);
+    font-family: 'Nunito', sans-serif;
+}

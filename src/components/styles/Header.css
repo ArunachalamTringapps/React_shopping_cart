@@ -1,0 +1,44 @@
+header{
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #000000af;
+    height: 6em;
+    color:  rgb(255, 153, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+header h1{
+    text-shadow: 3px 3px 5px #424242;
+}
+.homeword{
+    font-size: x-large;
+}
+.homeword a{
+    color:  rgb(255, 153, 0);
+
+}
+.addtocardbtn{
+    color: #fff;
+    height: 2rem;
+    width: 2rem;
+}
+.number_count{
+    padding: 0.2em;
+    border-radius: 50%;
+    font-size: small;
+    font-weight: 900;
+    background-color: rgb(255, 153, 0);
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.homeword{
+    display: flex;
+    font-size: large;
+    column-gap: 2em;
+}
