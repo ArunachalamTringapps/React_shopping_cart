@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/%7Bgithub-s3-react-app-shopping-card%7D/static/css/main.3243e747.css",
+    "main.js": "/%7Bgithub-s3-react-app-shopping-card%7D/static/js/main.8606efa4.js",
+    "index.html": "/%7Bgithub-s3-react-app-shopping-card%7D/index.html",
+    "main.3243e747.css.map": "/%7Bgithub-s3-react-app-shopping-card%7D/static/css/main.3243e747.css.map",
+    "main.8606efa4.js.map": "/%7Bgithub-s3-react-app-shopping-card%7D/static/js/main.8606efa4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3243e747.css",
+    "static/js/main.8606efa4.js"
+  ]
+}
