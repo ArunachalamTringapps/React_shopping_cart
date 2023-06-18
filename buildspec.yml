@@ -12,3 +12,4 @@ phases:
   post_build:
     commands:
       -aws s3 sync build/shopping-card s3://s3bucket-react-app --delete
+      
