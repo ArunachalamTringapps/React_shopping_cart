@@ -15,7 +15,6 @@ const Card = ({ cart, setCart, handleChange }) => {
     cart.map((item) => (ans += item.amount * item.price));
     setPrice(ans);
   };
-
   useEffect(() => {
     handlePrice();
   });
@@ -48,6 +47,5 @@ const Card = ({ cart, setCart, handleChange }) => {
     </article>
   );
 };
-
 
 export default Card
