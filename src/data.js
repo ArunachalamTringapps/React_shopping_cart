@@ -10,7 +10,7 @@ const product_card = [
     },
     {
         id: 2,
-        product_name: "Rayes Z30",
+        product_name: "Rayes Z300",
         description: "Hands-free, Hads-on Mushc Experience",
         price: 250,
         currency: "₹",
