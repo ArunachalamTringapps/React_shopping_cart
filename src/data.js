@@ -4,7 +4,7 @@ const product_card = [
         product_name: "Rayes Alpha",
         description: "Hands-free, Hads-on Mushc Experience",
         price: 350,
-        currency: "₹",
+        currency: "$",
         thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
         amount:1
     },
