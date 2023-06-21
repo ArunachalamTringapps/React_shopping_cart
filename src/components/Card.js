@@ -30,7 +30,7 @@ const Card = ({ cart, setCart, handleChange }) => {
       {cart.map((item) => (
         <div className="cart_box" key={item.id}>
           <div className="cart_img">
-            <img src={item.thumb} alt="" />
+            <img src={item.headphone_img} alt="" />
             <p>{item.product_name}</p>
           </div>
           <div className='increase_decrease_btn'>
