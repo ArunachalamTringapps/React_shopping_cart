@@ -2,7 +2,7 @@ import React from 'react'
 import './styles/Home.css'
 import product_card from '.././data'
 
-function pricelss({handleClick}) {
+function pricelss({cart,handleRemove,handleClick}) {
 
   const arun= product_card.filter(name => name.price<=500).map(filteredName => (
     <div className="card" key={filteredName.id}>
@@ -14,7 +14,7 @@ function pricelss({handleClick}) {
         <p>{filteredName.description}</p>
         <p className="price">{filteredName.price}<span>{filteredName.currency}</span></p>
         {/* <div className="btn">Add to cart</div> */}
-        <button onClick={() => handleClick(filteredName)}>Add to cart</button>
+        {cart.find((add_or_remove)=>{ return add_or_remove.id===filteredName.id})?<button onClick={() => {handleRemove(filteredName.id)}} >Remove</button>:<button onClick={() => {handleClick(filteredName)}} >Add to cart</button>   }   
     </div>
   </div>  ));
   return (
