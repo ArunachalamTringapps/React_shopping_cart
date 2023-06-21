@@ -7,7 +7,7 @@ function Home({handleClick}) {
   const arun=product_card.map((items)=>
   <div className="card" key={items.id}>
   <div className="card_img">
-      <img src={items.thumb} alt='' />
+      <img src={items.headphone_img} alt='' />
   </div>
   <div className="card_header">
       <h2>{items.product_name}</h2>

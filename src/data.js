@@ -5,7 +5,7 @@ const product_card = [
         description: "Hands-free, Hads-on Mushc Experience",
         price: 350,
         currency: "₹",
-        thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
+        headphone_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
         amount:1
     },
     {
@@ -14,7 +14,7 @@ const product_card = [
         description: "Hands-free, Hads-on Mushc Experience",
         price: 250,
         currency: "₹",
-        thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
+        headphone_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
         amount:1
     },
     {
@@ -23,7 +23,7 @@ const product_card = [
         description: "Hands-free, Hads-on Mushc Experience",
         price: 350,
         currency: "₹",
-        thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
+        headphone_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
         amount:1
     },
     {
@@ -32,7 +32,7 @@ const product_card = [
         description: "Hands-free, Hads-on Mushc Experience",
         price: 450,
         currency: "₹",
-        thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
+        headphone_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
         amount:1
     },
     {
@@ -41,7 +41,7 @@ const product_card = [
         description: "Hands-free, Hads-on Mushc Experience",
         price: 450,
         currency: "₹",
-        thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
+        headphone_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
         amount:1
     },
     {
@@ -50,7 +50,7 @@ const product_card = [
         description: "Hands-free, Hads-on Mushc Experience",
         price: 140,
         currency: "₹",
-        thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
+        headphone_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
         amount:1
     },
     {
@@ -59,7 +59,7 @@ const product_card = [
         description: "Hands-free, Hads-on Mushc Experience",
         price: 800,
         currency: "₹",
-        thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
+        headphone_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
         amount:1
     },
     {
@@ -68,7 +68,7 @@ const product_card = [
         description: "Hands-free, Hads-on Mushc Experience",
         price: 230,
         currency: "₹",
-        thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
+        headphone_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
         amount:1
     },
     {
@@ -77,7 +77,7 @@ const product_card = [
         description: "Hands-free, Hads-on Mushc Experience",
         price: 500,
         currency: "₹",
-        thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
+        headphone_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2pwoTOKjnLxbUc3QmYTAPZJRttMADT_HOYQ&usqp=CAU",
         amount:1
     }
 ]
