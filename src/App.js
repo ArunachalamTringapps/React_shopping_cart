@@ -25,12 +25,18 @@ function App() {
   };
 
 
+  const handleRemove = (id) => {
+    const arr = cart.filter((item) => item.id !== id);
+    setCart(arr);
+  };
+
+
   return (
     <div className="App">
       <Header size={cart.length} />
       <Routes>
-        <Route path='/' element={<Home  handleClick={handleClick}  />} />
-        <Route path='/card' element={<Card  cart={cart} setCart={setCart} handleChange={handleChange} />} />
+        <Route path='/' element={<Home  cart={cart} handleRemove={handleRemove}  handleClick={handleClick}  />} />
+        <Route path='/card' element={<Card  cart={cart} handleChange={handleChange} handleRemove={handleRemove} />} />
         <Route path='/greater-than-500' element={<Pricemore  handleClick={handleClick}  />} />
         <Route path='/less-than-500' element={<Priceless  handleClick={handleClick}  />} />
 

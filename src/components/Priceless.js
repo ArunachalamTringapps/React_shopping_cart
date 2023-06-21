@@ -7,7 +7,7 @@ function pricelss({handleClick}) {
   const arun= product_card.filter(name => name.price<=500).map(filteredName => (
     <div className="card" key={filteredName.id}>
     <div className="card_img">
-        <img src={filteredName.thumb} alt='' />
+        <img src={filteredName.headphone_img} alt='' />
     </div>
     <div className="card_header">
         <h2>{filteredName.product_name}</h2>

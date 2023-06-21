@@ -1,14 +1,10 @@
 import React,{useState,useEffect} from 'react'
 import './styles/Card.css'
 
-const Card = ({ cart, setCart, handleChange }) => {
+const Card = ({ cart, handleChange, handleRemove }) => {
   const [price, setPrice] = useState(0);
 
-  const handleRemove = (id) => {
-    const arr = cart.filter((item) => item.id !== id);
-    setCart(arr);
-    handlePrice();
-  };
+ 
 
   const handlePrice = () => {
     let ans = 0;
