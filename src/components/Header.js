@@ -1,10 +1,10 @@
 import React from 'react'
 import './styles/Header.css'
 import { Link } from 'react-router-dom';
-import { BsFillCartPlusFill } from "react-icons/bs";
+import  {BsFillCartPlusFill} from "react-icons/bs";
 
 function Header({ size }) {
-
+ 
   return (<header>
     <h1><span>Arun</span>Shop</h1>
     

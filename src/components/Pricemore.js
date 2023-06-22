@@ -3,7 +3,6 @@ import './styles/Home.css'
 import product_card from '.././data'
 
 function Pricemore({cart,handleRemove,handleClick}) {
-    
    const arun= product_card.filter(name => name.price>=500).map(filteredName => (
   <div className="card" key={filteredName.id}>
   <div className="card_img">
